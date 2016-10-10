@@ -6,6 +6,7 @@
 ## Usage:
 * copy colors.js into your project directory
 * add the following code into `<head>`
+* add id="colors" to the element you want to colorify 
 
 `<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>`
 
