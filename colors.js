@@ -11,7 +11,7 @@ $( document ).ready(function() {
     console.log("repl ", repl);
 };
 	for(var key in colorkeyval){
-	    hiliter(key, document.getElementById('color'));
+	    hiliter(key, document.getElementById('colors'));
 	};
 
 });
