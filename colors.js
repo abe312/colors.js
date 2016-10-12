@@ -1,8 +1,9 @@
 
+
 $( document ).ready(function() {
 	queue = new Array();
 	function hiliter(word, element) {
-    var rgxp = new RegExp(word, 'g');
+    var rgxp = new RegExp("\\b"+ word + "\\b" , 'g');
     console.log("key ", word);
     console.log("regexp ", rgxp);
     console.log(element.innerHTML);
@@ -15,6 +16,7 @@ $( document ).ready(function() {
 	};
 
 });
+
 
 
 
