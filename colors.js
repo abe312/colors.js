@@ -1,15 +1,16 @@
 $( document ).ready(function() {
 	$('body').attr('id', 'colors');
 	function hiliter(word, element) {
-    var rgxp = new RegExp("\\b" + word + "\\b" , 'gi');
-    var repl = '<span style="color:' + colorkeyval[word] +  ';">' + word + '</span>';
-    element.innerHTML = element.innerHTML.replace(rgxp, repl);
-};
+	    var rgxp = new RegExp("\\b" + word + "\\b" , 'gi');
+	    var repl = '<span style="color:' + colorkeyval[word] +  ';">' + word + '</span>';
+	    element.innerHTML = element.innerHTML.replace(rgxp, repl);
+        	};
 	for(var key in colorkeyval){
 	    hiliter(key, document.getElementById('colors'));
-	};
+		};
 
 });
+
 var colorkeyval={
     black: '#000000',
     orange: '#ffa500',
