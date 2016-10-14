@@ -26,7 +26,7 @@
 		<title>highlight</title>
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	 <script type="text/javascript" src="main.js" charset="utf-8"></script>
+	 <script type="text/javascript" src="colors.js" charset="utf-8"></script>
 		 <link href="main.css" type="text/css"  rel="stylesheet"/>
 		 
 	</head>
